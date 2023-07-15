@@ -7,16 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		352905122A624F0700D3C1B7 /* guiterSounds in Resources */ = {isa = PBXBuildFile; fileRef = 352905112A624F0700D3C1B7 /* guiterSounds */; };
+		352905142A625A6200D3C1B7 /* fluteSounds in Resources */ = {isa = PBXBuildFile; fileRef = 352905132A625A6200D3C1B7 /* fluteSounds */; };
 		355EE1E02A5D64FF0042DF9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355EE1DF2A5D64FF0042DF9A /* AppDelegate.swift */; };
 		355EE1E22A5D64FF0042DF9A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355EE1E12A5D64FF0042DF9A /* SceneDelegate.swift */; };
 		355EE1E42A5D64FF0042DF9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355EE1E32A5D64FF0042DF9A /* ViewController.swift */; };
 		355EE1E72A5D64FF0042DF9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 355EE1E52A5D64FF0042DF9A /* Main.storyboard */; };
 		355EE1E92A5D65000042DF9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 355EE1E82A5D65000042DF9A /* Assets.xcassets */; };
 		355EE1EC2A5D65000042DF9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 355EE1EA2A5D65000042DF9A /* LaunchScreen.storyboard */; };
-		357722772A60EE210035BBCB /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 357722762A60EE210035BBCB /* Sounds */; };
+		35CF721B2A60EC860093AC75 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 35CF721A2A60EC860093AC75 /* Sounds */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		352905112A624F0700D3C1B7 /* guiterSounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = guiterSounds; path = ../../guiterSounds; sourceTree = "<group>"; };
+		352905132A625A6200D3C1B7 /* fluteSounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fluteSounds; path = ../../fluteSounds; sourceTree = "<group>"; };
 		355EE1DC2A5D64FF0042DF9A /* Xylophone Play.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Xylophone Play.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		355EE1DF2A5D64FF0042DF9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		355EE1E12A5D64FF0042DF9A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,7 +29,7 @@
 		355EE1E82A5D65000042DF9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		355EE1EB2A5D65000042DF9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		355EE1ED2A5D65000042DF9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		357722762A60EE210035BBCB /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sounds; path = ../../Sounds; sourceTree = "<group>"; };
+		35CF721A2A60EC860093AC75 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sounds; path = ../../Sounds; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +69,9 @@
 				355EE1E82A5D65000042DF9A /* Assets.xcassets */,
 				355EE1EA2A5D65000042DF9A /* LaunchScreen.storyboard */,
 				355EE1ED2A5D65000042DF9A /* Info.plist */,
-				357722762A60EE210035BBCB /* Sounds */,
+				352905132A625A6200D3C1B7 /* fluteSounds */,
+				352905112A624F0700D3C1B7 /* guiterSounds */,
+				35CF721A2A60EC860093AC75 /* Sounds */,
 			);
 			path = "Xylophone Play";
 			sourceTree = "<group>";
@@ -129,9 +135,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				355EE1EC2A5D65000042DF9A /* LaunchScreen.storyboard in Resources */,
+				352905122A624F0700D3C1B7 /* guiterSounds in Resources */,
 				355EE1E92A5D65000042DF9A /* Assets.xcassets in Resources */,
-				357722772A60EE210035BBCB /* Sounds in Resources */,
+				35CF721B2A60EC860093AC75 /* Sounds in Resources */,
 				355EE1E72A5D64FF0042DF9A /* Main.storyboard in Resources */,
+				352905142A625A6200D3C1B7 /* fluteSounds in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
